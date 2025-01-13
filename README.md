@@ -13,7 +13,7 @@
 git clone https://github.com/Ftdcheng/CUMTAssignmentTemplates.git
 code CUMTAssignmentTemplates # 使用vs code打开项目目录
 ```
-4.《中国矿业大学硕士专业课课程报告》由`report`目录下三个文件构成，《中国矿业大学硕士研究生课程考试试卷》由`exam`目录下三个文件构成。`exam`和`report`目录下`base.typ`存放基础配置，`cover.typ`存放封面，`main.typ`存放主要页面内容。一般只需修改`main.typ`，你需要修改的字段已经为你在文档中进行了注释。
+4. 《中国矿业大学硕士专业课课程报告》由`report`目录下三个文件构成，《中国矿业大学硕士研究生课程考试试卷》由`exam`目录下三个文件构成。`exam`和`report`目录下`base.typ`存放基础配置，`cover.typ`存放封面，`main.typ`存放主要页面内容。一般只需修改`main.typ`，你需要修改的字段已经为你在文档中进行了注释。
 ![可编辑字段](imgs/doc/config_params.png)
 5. VS Code中点击`exam/main.typ`，然后再点击右上角的预览按钮即可分屏实时预览，你在左侧编辑可以实时对应到右边的预览框。
 ![预览框](imgs/doc/preview_button.png)
