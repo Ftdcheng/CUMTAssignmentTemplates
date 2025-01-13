@@ -37,7 +37,7 @@ place(
     *中 国 矿 业 大 学*
 
     #set text(size: 22pt)
-    *2024级硕士研究生课程考试试卷*
+    *#args.named().at("grade")级#args.named().at("catagory")研究生课程考试试卷*
   ],
   clearance: 8em
 )
@@ -86,4 +86,4 @@ place(
 
 pagebreak()
 }
-#genCover(subject: "科目", examDate: "2025.01.01", id:"12200001",name:"张三", classname: "火箭班", level: "一年级", college: "母猪的产后护理", teacher: "李四")
+#genCover(subject: "科目", examDate: "2025.01.01", id:"12200001",name:"张三", classname: "火箭班", grade: "2024", catagory: "硕士", college: "母猪的产后护理", teacher: "李四")
